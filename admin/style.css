@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to right, rgb(255, 0, 0),rgb(248, 125, 125));
+}
+
+.container {
+    border-radius: 10px;
+    width: 380px;
+    height: 400px;
+    margin: 120px auto;
+    overflow: hidden;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    background-color: #fff;
+}
+.judul{
+    background: linear-gradient(rgb(209, 3, 3),rgb(224, 3, 3));
+    padding: 15px;
+    color: white;
+}
+h2{
+    text-align: center;
+    
+}
+.judul p{
+    text-align: center;
+    
+}
+.input{
+    padding: 50px 20px 20px 20px;
+    margin: auto;
+   
+}
+.input input {
+    display: block;
+    padding: 5px;
+    margin: 10px 0;
+    width: 95%;
+    border: none;
+    border-bottom: 1px solid rgba(197, 2, 2, 0.74);
+}
+.input label{
+    font-size: 15px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: right;
+    color: blue;
+    
+}
+.btn{
+    
+    text-align: center;
+}
+.btn input{
+    padding: 10px 150px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    background: linear-gradient(rgb(255, 0, 0),rgb(172, 0, 0));
+}
+.btn a{
+    font-size:17px ;
+}
+
+
+
+
+

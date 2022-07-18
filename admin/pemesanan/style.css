@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(223, 0, 0);
+}
+header .logo{flex-basis: 25%; text-align: center;}
+header .logout{flex-basis: 25%; text-align: center;}
+header .nav{flex-basis: 50%;}
+
+a{
+    text-decoration: none;
+}
+header .nav ul{
+    text-align: center;
+}
+header .nav ul li{
+    display: inline-block;
+    font-size: 25px;
+    padding-right: 20px;
+    color: white;
+    padding-left: 20px;
+}
+header .logout button{
+    padding: 12px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    
+}
+header .logout button:hover{
+    background:none;
+    border-color: white;
+}
+
+main{
+    width: 95%;
+    margin:  auto;
+    padding: 20px;
+    margin-top:20px ;
+    margin-bottom:15px ;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.534);
+}
+main .head{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+main .head .judul{
+    flex-basis: 50%;
+    font-size: 25px;
+}
+
+main .head .search{
+    flex-basis: 50%;
+    text-align: right;
+}
+
+.search input[type="text"]{
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+.search input[type="submit"]{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    
+}
+
+#customers {    
+    width: 100%;
+  }
+  table{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+.title{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    background-color: rgb(17, 17, 17);
+    color: rgb(104, 104, 104);
+}
+.title img{
+    margin-right: 15px;
+}
